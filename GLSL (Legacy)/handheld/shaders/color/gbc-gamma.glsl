@@ -3,7 +3,7 @@
 // This gamma ramp is used to use GBC's LCD gamma curves, as it doesn't use the standard gamma. The GBC screen has a brighter image overall, with the dark shadows being darker for a more contrast look from the display.
 // A gamma can be adjusted as GBC's gamma can vary depending on the light source angle. Top light angle is brighter while the bottom light angle is darker. Still is overall brighter than raw RGB gamma ramp.
 
-#pragma parameter gamma_mode "Gamma Ramp: 0=Raw, 1=GBC" 1.0 0.0 2.0 1.0
+#pragma parameter gamma_mode "Gamma Ramp: 0=Raw, 1=GBC" 1.0 0.0 1.0 1.0
 #pragma parameter adjust_gamma "Adjust Gamma (Darker-Brighter)" 0.0 -1.0 1.25 0.05
 
 #ifdef PARAMETER_UNIFORM
