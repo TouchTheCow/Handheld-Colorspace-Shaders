@@ -85,7 +85,7 @@ void main()
     out_g = OGGamma[RampG];
     out_b = OGGamma[RampB];
   }
-  else
+  else if (g_mode == 1)
   {
     out_r = GBCGamma[RampR];
     out_g = GBCGamma[RampG];
